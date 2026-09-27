@@ -13,6 +13,22 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://d3fend.mitre.org/ontologies/d3fend/1.1.0/d3fend.owl</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+        <Literal xml:lang="en">Giampaolo Bella,Gianpietro Castiglione, Sergio Esposito,Claudia Finocchiaro,Mirko Giuseppe Mangano,Giacomo Pampallona,Mario Raciti,Salvatore Riccobene, Daniele Francesco Santamaria</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <Literal xml:lang="en">SeCarOnto is an unified ontology for cybersecurity in the automotive domain, formally representing assets, threats, and their associated mitigation strategies.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+        <Literal xml:lang="en">http://creativecommons.org/licenses/by/4.0/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <Literal xml:lang="en">SeCarOnto</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="http://d3fend.mitre.org/ontologies/d3fend.owl#AccessPolicyAdministration"/>
     </Declaration>
@@ -1755,6 +1771,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#mitigates"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -8771,6 +8790,301 @@
         <Class IRI="#Threat"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Asset</IRI>
+        <Literal xml:lang="en">Asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuthenticationCredentials</IRI>
+        <Literal xml:lang="en">Authentication Credentials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuthenticationCredentials-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">Authentication Credentials STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuthenticationCredentials-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">Authentication Credentials STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuthenticationCredentials-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Authentication Credentials STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuthenticationCredentials-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">Authentication Credentials STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuthenticationCredentials-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">Authentication Credentials STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuthenticationCredentials-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">Authentication Credentials STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AuthenticationCredentials-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">Authentication Credentials STRIDE T Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloudLinkedIdentifiers</IRI>
+        <Literal xml:lang="en">Cloud Linked Identifiers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloudLinkedIdentifiersLINDDUN-De-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cloud Linked Identifiers LINDDUN De Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloudLinkedIdentifiersLINDDUN-Di-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cloud Linked Identifiers LINDDUN Di Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloudLinkedIdentifiersLINDDUN-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cloud Linked Identifiers LINDDUN I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloudLinkedIdentifiersLINDDUN-L-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cloud Linked Identifiers LINDDUN L Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloudLinkedIdentifiersLINDDUN-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cloud Linked Identifiers LINDDUN Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloudLinkedIdentifiersLINDDUN-Nc-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cloud Linked Identifiers LINDDUN Nc Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloudLinkedIdentifiersLINDDUN-Nr-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cloud Linked Identifiers LINDDUN Nr Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CloudLinkedIdentifiersLINDDUN-U-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cloud Linked Identifiers LINDDUN U Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CommunicationMetadata</IRI>
+        <Literal xml:lang="en">Communication Metadata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CommunicationMetadata-LINDDUN-De-MitigationPlan</IRI>
+        <Literal xml:lang="en">Communication Metadata LINDDUN De Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CommunicationMetadata-LINDDUN-Di-MitigationPlan</IRI>
+        <Literal xml:lang="en">Communication Metadata LINDDUN Di Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CommunicationMetadata-LINDDUN-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Communication Metadata LINDDUN I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CommunicationMetadata-LINDDUN-L-MitigationPlan</IRI>
+        <Literal xml:lang="en">Communication Metadata LINDDUN L Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CommunicationMetadata-LINDDUN-MitigationPlan</IRI>
+        <Literal xml:lang="en">Communication Metadata LINDDUN Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CommunicationMetadata-LINDDUN-Nc-MitigationPlan</IRI>
+        <Literal xml:lang="en">Communication Metadata LINDDUN Nc Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CommunicationMetadata-LINDDUN-Nr-MitigationPlan</IRI>
+        <Literal xml:lang="en">Communication Metadata LINDDUN Nr Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CommunicationMetadata-LINDDUN-U-MitigationPlan</IRI>
+        <Literal xml:lang="en">Communication Metadata LINDDUN U Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ComponentAsset</IRI>
+        <Literal xml:lang="en">Component asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CryptographicKey</IRI>
+        <Literal xml:lang="en">Cryptographic Key</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CryptographicKeys-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cryptographic Keys STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CryptographicKeys-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cryptographic Keys STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CryptographicKeys-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cryptographic Keys STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CryptographicKeys-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cryptographic Keys STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CryptographicKeys-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cryptographic Keys STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CryptographicKeys-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cryptographic Keys STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CryptographicKeys-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">Cryptographic Keys STRIDE T Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeviceIdentity</IRI>
+        <Literal xml:lang="en">Device Identity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeviceIdentity-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">Device Identity STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeviceIdentity-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">Device Identity STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeviceIdentity-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Device Identity STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeviceIdentity-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">Device Identity STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeviceIdentity-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">Device Identity STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeviceIdentity-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">Device Identity STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DeviceIdentity-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">Device Identity STRIDE T Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GDPR-Article</IRI>
+        <Literal xml:lang="en">General Data Protection Regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ISO27002-2022-Measure</IRI>
+        <Literal xml:lang="en">ISO 27002 2022 Measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InformationAsset</IRI>
+        <Literal xml:lang="en">Information Asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KeyManagementInfrastructure</IRI>
+        <Literal xml:lang="en">Key Management Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KeyManagementInfrastructure-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">Key Management Infrastructure STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KeyManagementInfrastructure-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">Key Management Infrastructure STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KeyManagementInfrastructure-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Key Management Infrastructure STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KeyManagementInfrastructure-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">Key Management Infrastructure STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KeyManagementInfrastructure-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">Key Management Infrastructure STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KeyManagementInfrastructure-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">Key Management Infrastructure STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#KeyManagementInfrastructure-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">Key Management Infrastructure STRIDE T Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-MitigationPlan</IRI>
+        <Literal xml:lang="en">LINDDUN Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-Threat</IRI>
+        <Literal xml:lang="en">LINDDUN Threat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LINDDUN-Threat-Detectability</IRI>
+        <Literal xml:lang="en">Deducing the involvement of an individual through observation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-Threat-Detectability</IRI>
+        <Literal xml:lang="en">LINDDUN Threat Detectability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#LINDDUN-Threat-Detectability-D1-1</IRI>
         <Literal>D1.1</Literal>
@@ -8976,6 +9290,16 @@
         <Literal xml:lang="en">Packet capture reveals authentication scheme</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation</IRI>
+        <Literal xml:lang="en">LINDDUN Threat Disclosure of information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation</IRI>
+        <Literal xml:lang="en">Excessively collecting, storing, processing or sharing personal data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#LINDDUN-Threat-DisclosureOfInformation-D2-4</IRI>
         <Literal>D2.4</Literal>
@@ -9124,6 +9448,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-DisclosureOfInformation-D7-3</IRI>
         <Literal xml:lang="en">Update requests traceable to unique ID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LINDDUN-Threat-Identifiability</IRI>
+        <Literal xml:lang="en">Learning the identity of an individual, through leaks, deduction, or inference.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-Threat-Identifiability</IRI>
+        <Literal>LINDDUN Threat Identifiability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -9331,6 +9665,26 @@
         <Literal xml:lang="en">Unique device ID mapped to user name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-Threat-Linkability</IRI>
+        <Literal xml:lang="en">Associating data items or user actions to learn more about an individual or group.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-Threat-Linkability</IRI>
+        <Literal xml:lang="en">LINDDUN Threat Linkability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LINDDUN-Threat-Linkability-L1</IRI>
+        <Literal xml:lang="en">Identifiers refer to any data item that can be used to uniquely identify entries or interactions and link them to the same individual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-Threat-Linkability-L1</IRI>
+        <Literal xml:lang="en">LINDDUN Threat Linkability L1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#LINDDUN-Threat-Linkability-L1-1</IRI>
         <Literal>L1.1</Literal>
@@ -9501,6 +9855,16 @@
         <Literal xml:lang="en">Third-party analytics tags shared across apps</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LINDDUN-Threat-NonCompliance</IRI>
+        <Literal xml:lang="en">Deviating from security and data management best practices, standards and legislation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-Threat-NonCompliance</IRI>
+        <Literal xml:lang="en">LINDDUN Threat Non Compliance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#LINDDUN-Threat-NonCompliance-N1-4</IRI>
         <Literal>N1.4</Literal>
@@ -9619,6 +9983,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-NonCompliance-N8-6</IRI>
         <Literal xml:lang="en">System logs deny user’s unlinking attempt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LINDDUN-Threat-NonRepudiation</IRI>
+        <Literal xml:lang="en">Being able to attribute a claim to an individual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-Threat-NonRepudiation</IRI>
+        <Literal xml:lang="en">LINDDUN Threat Non Repudiation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -9799,6 +10173,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-NonRepudiation-N8-3</IRI>
         <Literal xml:lang="en">Logs contain conflicting identifiers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LINDDUN-Threat-Unawareness</IRI>
+        <Literal xml:lang="en">Insufficiently informing, involving or empowering individuals in the processing of their personal data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LINDDUN-Threat-Unawareness</IRI>
+        <Literal xml:lang="en">LINDDUN Threat Unawareness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10006,6 +10390,231 @@
         <Literal xml:lang="en">Account deletion does not revoke tokens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocationInformation</IRI>
+        <Literal xml:lang="en">Location Information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocationInformation-LINDDUN-De-MitigationPlan</IRI>
+        <Literal xml:lang="en">Location Information LINDDUN De Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocationInformation-LINDDUN-Di-MitigationPlan</IRI>
+        <Literal xml:lang="en">Location Information LINDDUN Di Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocationInformation-LINDDUN-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Location Information LINDDUN I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocationInformation-LINDDUN-L-MitigationPlan</IRI>
+        <Literal xml:lang="en">Location Information LINDDUN L Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocationInformation-LINDDUN-MitigationPlan</IRI>
+        <Literal xml:lang="en">Location Information LINDDUN Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocationInformation-LINDDUN-Nc-MitigationPlan</IRI>
+        <Literal xml:lang="en">Location Information LINDDUN Nc Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocationInformation-LINDDUN-Nr-MitigationPlan</IRI>
+        <Literal xml:lang="en">Location Information LINDDUN Nr Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocationInformation-LINDDUN-U-MitigationPlan</IRI>
+        <Literal xml:lang="en">Location Information LINDDUN U Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LogDataWithPersonalContext</IRI>
+        <Literal xml:lang="en">Log Data With Personal Context</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LogDataWithPersonalContext-LINDDUN-De-MitigationPlan</IRI>
+        <Literal xml:lang="en">Log Data with Personal Context LINDDUN De Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LogDataWithPersonalContext-LINDDUN-Di-MitigationPlan</IRI>
+        <Literal xml:lang="en">Log Data with Personal Context LINDDUN Di Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LogDataWithPersonalContext-LINDDUN-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Log Data with Personal Context LINDDUN I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LogDataWithPersonalContext-LINDDUN-L-MitigationPlan</IRI>
+        <Literal xml:lang="en">Log Data with Personal Context LINDDUN L Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LogDataWithPersonalContext-LINDDUN-MitigationPlan</IRI>
+        <Literal xml:lang="en">Log Data with Personal Context LINDDUN Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LogDataWithPersonalContext-LINDDUN-Nc-MitigationPlan</IRI>
+        <Literal xml:lang="en">Log Data with Personal Context LINDDUN Nc Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LogDataWithPersonalContext-LINDDUN-Nr-MitigationPlan</IRI>
+        <Literal xml:lang="en">Log Data with Personal Context LINDDUN Nr Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LogDataWithPersonalContext-LINDDUN-U-MitigationPlan</IRI>
+        <Literal xml:lang="en">Log Data with Personal Context LINDDUN U Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Logging-AuditRecords</IRI>
+        <Literal xml:lang="en">Logging Audit Records</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Logging-AuditRecords-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">Logging Audit Records STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Logging-AuditRecords-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">Logging Audit Records STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Logging-AuditRecords-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Logging Audit Records STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Logging-AuditRecords-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">Logging Audit Records STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Logging-AuditRecords-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">Logging Audit Records STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Logging-AuditRecords-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">Logging Audit Records STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Logging-AuditRecords-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">Logging Audit Records STRIDE T Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MiddlewareInterfaces</IRI>
+        <Literal xml:lang="en">Middleware Interfaces</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MiddlewareInterfaces-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">Middleware Interfaces STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MiddlewareInterfaces-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">Middleware Interfaces STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MiddlewareInterfaces-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Middleware Interfaces STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MiddlewareInterfaces-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">Middleware Interfaces STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MiddlewareInterfaces-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">Middleware Interfaces STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MiddlewareInterfaces-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">Middleware Interfaces STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MiddlewareInterfaces-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">Middleware Interfaces STRIDE T Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MitigationMeasure</IRI>
+        <Literal xml:lang="en">Mitigation Measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MitigationPlan</IRI>
+        <Literal xml:lang="en">Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OTAUpdateRecords</IRI>
+        <Literal xml:lang="en">OTA Update Records</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OTAUpdateRecords-LINDDUN-De-MitigationPlan</IRI>
+        <Literal xml:lang="en">OTA Update Records LINDDUN De Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OTAUpdateRecords-LINDDUN-Di-MitigationPlan</IRI>
+        <Literal xml:lang="en">OTA Update Records LINDDUN Di Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OTAUpdateRecords-LINDDUN-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">OTA Update Records LINDDUN I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OTAUpdateRecords-LINDDUN-L-MitigationPlan</IRI>
+        <Literal xml:lang="en">OTA Update Records LINDDUN L Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OTAUpdateRecords-LINDDUN-MitigationPlan</IRI>
+        <Literal xml:lang="en">OTA Update Records LINDDUN Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OTAUpdateRecords-LINDDUN-Nc-MitigationPlan</IRI>
+        <Literal xml:lang="en">OTA Update Records LINDDUN Nc Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OTAUpdateRecords-LINDDUN-Nr-MitigationPlan</IRI>
+        <Literal xml:lang="en">OTA Update Records LINDDUN Nr Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OTAUpdateRecords-LINDDUN-U-MitigationPlan</IRI>
+        <Literal xml:lang="en">OTA Update Records LINDDUN U Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#PM01</IRI>
         <Literal xml:lang="en">Right of access by the data subject</Literal>
@@ -10075,6 +10684,51 @@ cluding profiling</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#PM07</IRI>
         <Literal>https://gdpr-info.eu/art-21-gdpr/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PrivacyAsset</IRI>
+        <Literal xml:lang="en">Privacy Asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSUTrustComponents</IRI>
+        <Literal xml:lang="en">RSU Trust Components</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSUTrustComponents-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">RSU Trust Components STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSUTrustComponents-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">RSU Trust Components STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSUTrustComponents-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">RSU Trust Components STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSUTrustComponents-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">RSU Trust Components STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSUTrustComponents-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">RSU Trust Components STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSUTrustComponents-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">RSU Trust Components STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RSUTrustComponents-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">RSU Trust Components STRIDE T Mitigation Plan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10469,6 +11123,26 @@ tivities involving assessment of operational systems
 between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat</IRI>
+        <Literal xml:lang="en">STRIDE Threat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-DenialOfService</IRI>
+        <Literal xml:lang="en">STRIDE Threat Denial of Service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-DenialOfService-D10</IRI>
+        <Literal xml:lang="en">STRIDE Threat Denial of Service D10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-DenialOfService-D10-1</IRI>
         <Literal>D10.1</Literal>
@@ -10497,6 +11171,11 @@ between the tester and appropriate management</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-DenialOfService-D10-3</IRI>
         <Literal xml:lang="en">Channel flooding disrupts message forwarding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-DenialOfService-D6</IRI>
+        <Literal xml:lang="en">STRIDE Threat Denial of Service D6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10529,6 +11208,11 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Repeated session renegotiation causes channel instability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-DenialOfService-D7</IRI>
+        <Literal xml:lang="en">STRIDE Threat Denial of Service D7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-DenialOfService-D7-2</IRI>
         <Literal>D7.2</Literal>
@@ -10557,6 +11241,11 @@ between the tester and appropriate management</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-DenialOfService-D7.1</IRI>
         <Literal xml:lang="en">Resource exhaustion via malformed API calls.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-DenialOfService-D9</IRI>
+        <Literal xml:lang="en">STRIDE Threat Denial of Service D9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10589,6 +11278,16 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Key rotation flood affects downstream systems</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege</IRI>
+        <Literal xml:lang="en">STRIDE Threat Elevation of Privilege</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10</IRI>
+        <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10-1</IRI>
         <Literal>E10.1</Literal>
@@ -10617,6 +11316,11 @@ between the tester and appropriate management</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10-3</IRI>
         <Literal xml:lang="en">Privilege escalation using firmware bug in RSU</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E2</IRI>
+        <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10649,6 +11353,11 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Misuse of system APIs enables overwriting trusted identity fields</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6</IRI>
+        <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6-1</IRI>
         <Literal>E6.1</Literal>
@@ -10677,6 +11386,11 @@ between the tester and appropriate management</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6-3</IRI>
         <Literal xml:lang="en">Compromise of network stack to gain control of communication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E7</IRI>
+        <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E7</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10709,6 +11423,11 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Exploitation of race conditions in key management logic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E9</IRI>
+        <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E9-1</IRI>
         <Literal>E9.1</Literal>
@@ -10739,6 +11458,11 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Privileged access exploited to forge revocation entries</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-4.1</IRI>
         <Literal>I4.1</Literal>
@@ -10747,6 +11471,11 @@ between the tester and appropriate management</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-4.1</IRI>
         <Literal xml:lang="en">Debug access leaks boot measurements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I1</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10779,6 +11508,11 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">ebug interface allows reading sensitive keys in cleartext</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I10</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I10-1</IRI>
         <Literal>I10.1</Literal>
@@ -10807,6 +11541,11 @@ between the tester and appropriate management</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I10-3</IRI>
         <Literal xml:lang="en">RSU-to-cloud link unencrypted, leaks usage data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I2</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10839,6 +11578,11 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Certificate chain inspection reveals persistent identifiers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I3</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I3-1</IRI>
         <Literal>I3.1</Literal>
@@ -10869,6 +11613,11 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Logging of credentials in debug output</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I4</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I4-2</IRI>
         <Literal>I4.2</Literal>
@@ -10887,6 +11636,11 @@ between the tester and appropriate management</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I4-3</IRI>
         <Literal xml:lang="en">Timing attacks reveal firmware branching based on verification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I5</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10920,6 +11674,11 @@ sage metadata</Literal>
         <Literal xml:lang="en">Misconfigured encryption leaves safety data in cleartext</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I6</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I6-1</IRI>
         <Literal>I6.1</Literal>
@@ -10948,6 +11707,11 @@ sage metadata</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I6-3</IRI>
         <Literal xml:lang="en">Key reuse exposes communication pattern</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I7</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L7</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -10980,6 +11744,11 @@ sage metadata</Literal>
         <Literal xml:lang="en">Input/output logs inadvertently expose data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I8</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I8-1</IRI>
         <Literal>I8.1</Literal>
@@ -11008,6 +11777,11 @@ sage metadata</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I8-3</IRI>
         <Literal xml:lang="en">Log aggregation server leaks context via misconfiguration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I9</IRI>
+        <Literal xml:lang="en">STRIDE Threat Information Disclosure L9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11040,6 +11814,16 @@ sage metadata</Literal>
         <Literal xml:lang="en">API returns active certificate list without access control.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-Repudation</IRI>
+        <Literal xml:lang="en">STRIDE Threat Repudation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-Repudation-R10</IRI>
+        <Literal xml:lang="en">STRIDE Threat Repudation R10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-Repudation-R10-1</IRI>
         <Literal>R10.1</Literal>
@@ -11070,6 +11854,11 @@ sage metadata</Literal>
         <Literal xml:lang="en">RSU denies participating in broadcast session</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-Repudation-R2</IRI>
+        <Literal xml:lang="en">STRIDE Threat Repudation R2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-Repudation-R2-1</IRI>
         <Literal>R2.1</Literal>
@@ -11098,6 +11887,11 @@ sage metadata</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-Repudation-R2-3</IRI>
         <Literal xml:lang="en">Rollback of identity state using outdated firmware</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-Repudation-R6</IRI>
+        <Literal xml:lang="en">STRIDE Threat Repudation R6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11131,6 +11925,11 @@ sage metadata</Literal>
 identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-Repudation-R7</IRI>
+        <Literal xml:lang="en">STRIDE Threat Repudation R7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-Repudation-R7-1</IRI>
         <Literal>R7.1</Literal>
@@ -11159,6 +11958,11 @@ identities</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-Repudation-R7-3</IRI>
         <Literal xml:lang="en">Invocation record spoofed to create audit gaps</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-Repudation-R8</IRI>
+        <Literal xml:lang="en">STRIDE Threat Repudation R8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11191,6 +11995,11 @@ identities</Literal>
         <Literal xml:lang="en">False denial of past actions despite evidence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-Repudation-R9</IRI>
+        <Literal xml:lang="en">STRIDE Threat Repudation R9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-Repudation-R9-1</IRI>
         <Literal>R9.1</Literal>
@@ -11219,6 +12028,16 @@ identities</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-Repudation-R9-3</IRI>
         <Literal xml:lang="en">Lack of audit trails for revocation actions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S1</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity S1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11251,6 +12070,11 @@ identities</Literal>
         <Literal xml:lang="en">Replay of signed messages using extracted keys.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S10</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity S10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S10-1</IRI>
         <Literal>S10.1</Literal>
@@ -11279,6 +12103,11 @@ identities</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S10-3</IRI>
         <Literal xml:lang="en">Replay of previously valid RSU broadcasts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S2</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity S2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11311,6 +12140,11 @@ identities</Literal>
         <Literal xml:lang="en">Impersonation of another vehicle to manipulate traffic behaviour.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S3</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity S3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S3-1</IRI>
         <Literal>S3.1</Literal>
@@ -11339,6 +12173,11 @@ identities</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S3-3</IRI>
         <Literal xml:lang="en">Attacker reuses TLS session ticket to impersonate vehicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S4</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity S4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11371,6 +12210,11 @@ identities</Literal>
         <Literal xml:lang="en">Use of obsolete trusted root to fakeboot integrity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S5</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity S5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S5-1</IRI>
         <Literal>S5.1</Literal>
@@ -11399,6 +12243,11 @@ identities</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S5-3</IRI>
         <Literal xml:lang="en">Use of spoofed vehicle ID in signed payload</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S6</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity S6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11431,6 +12280,11 @@ identities</Literal>
         <Literal xml:lang="en">Impersonation using a cloned MAC address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S7</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity S7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S7-1</IRI>
         <Literal>S7.1</Literal>
@@ -11461,6 +12315,11 @@ identities</Literal>
         <Literal xml:lang="en">Unauthorised API call mimics legitimate service</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S9</IRI>
+        <Literal xml:lang="en">STRIDE Threat Spoofing Identity S9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S9-1</IRI>
         <Literal>S9.1</Literal>
@@ -11489,6 +12348,16 @@ identities</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S9-3</IRI>
         <Literal xml:lang="en">Phishing backend admin to approve rogue identity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T1</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11522,6 +12391,11 @@ identities</Literal>
 (e.g., reuse of expired keys)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T10</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T10-1</IRI>
         <Literal>T10.1</Literal>
@@ -11550,6 +12424,11 @@ identities</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T10-3</IRI>
         <Literal xml:lang="en">Injection of unsigned RSU messages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T2</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11582,6 +12461,11 @@ identities</Literal>
         <Literal xml:lang="en">Memory corruption leads to altered identity representation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T3</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T3-1</IRI>
         <Literal>T3.1</Literal>
@@ -11610,6 +12494,11 @@ identities</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T3-3</IRI>
         <Literal xml:lang="en">MITM alters session handshake credentials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T4</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11642,6 +12531,11 @@ identities</Literal>
         <Literal xml:lang="en">Firmware image tampering prior to installation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T5</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T5-1</IRI>
         <Literal>T5.1</Literal>
@@ -11670,6 +12564,11 @@ identities</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T5-3</IRI>
         <Literal xml:lang="en">Injection of false timestamp or GPS data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T6</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11703,6 +12602,11 @@ identities</Literal>
 eters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T7</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T7-1</IRI>
         <Literal>T7.1</Literal>
@@ -11731,6 +12635,11 @@ eters</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T7-3</IRI>
         <Literal xml:lang="en">Tampering with internal buffers before signing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T8</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
@@ -11763,6 +12672,11 @@ eters</Literal>
         <Literal xml:lang="en">Injection of misleading entries to misattribute actions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T9</IRI>
+        <Literal xml:lang="en">STRIDE Threat Tampering with Data T9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T9-1</IRI>
         <Literal>T9.1</Literal>
@@ -11791,6 +12705,296 @@ eters</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T9-3</IRI>
         <Literal xml:lang="en">Compromise of update channel to deliver fake credentials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureBootMeasures</IRI>
+        <Literal xml:lang="en">Secure Boot Measures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureBootMeasures-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Boot Measures STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureBootMeasures-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Boot Measures STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureBootMeasures-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Boot Measures STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureBootMeasures-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Boot Measures STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureBootMeasures-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Boot Measures STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureBootMeasures-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Boot Measures STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureBootMeasures-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Boot Measures STRIDE T Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureCommunicationChannel-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Communication Channel STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureCommunicationChannel-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Communication Channel STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureCommunicationChannel-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Communication Channel STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureCommunicationChannel-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Communication Channel STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureCommunicationChannel-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Communication Channel STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureCommunicationChannel-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Communication Channel STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureCommunicationChannel-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">Secure Communication Channel STRIDE T Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecureCommunicationChannels</IRI>
+        <Literal xml:lang="en">Secure Communication Channels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SecurityAsset</IRI>
+        <Literal xml:lang="en">Security Asset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Threat</IRI>
+        <Literal xml:lang="en">Threat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransmittedMessageContent</IRI>
+        <Literal xml:lang="en">Transmitted Message Content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransmittedMessageContent-LINDDUN-De-MitigationPlan</IRI>
+        <Literal xml:lang="en">Transmitted Message Content LINDDUN De Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransmittedMessageContent-LINDDUN-Di-MitigationPlan</IRI>
+        <Literal xml:lang="en">Transmitted Message Content LINDDUN Di Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransmittedMessageContent-LINDDUN-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Transmitted Message Content LINDDUN I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransmittedMessageContent-LINDDUN-L-MitigationPlan</IRI>
+        <Literal xml:lang="en">Transmitted Message Content LINDDUN L Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransmittedMessageContent-LINDDUN-MitigationPlan</IRI>
+        <Literal xml:lang="en">Transmitted Message Content LINDDUN Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransmittedMessageContent-LINDDUN-Nc-MitigationPlan</IRI>
+        <Literal xml:lang="en">Transmitted Message Content LINDDUN Nc Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransmittedMessageContent-LINDDUN-Nr-MitigationPlan</IRI>
+        <Literal xml:lang="en">Transmitted Message Content LINDDUN Nr Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TransmittedMessageContent-LINDDUN-U-MitigationPlan</IRI>
+        <Literal xml:lang="en">Transmitted Message Content LINDDUN U Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UserBehaviorPreferences</IRI>
+        <Literal xml:lang="en">User Behavior Preferences</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UserBehaviorPreferences-LINDDUN-De-MitigationPlan</IRI>
+        <Literal xml:lang="en">User Behavior Preferences LINDDUN De Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UserBehaviorPreferences-LINDDUN-Di-MitigationPlan</IRI>
+        <Literal xml:lang="en">User Behavior Preferences LINDDUN Di Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UserBehaviorPreferences-LINDDUN-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">User Behavior Preferences LINDDUN I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UserBehaviorPreferences-LINDDUN-L-MitigationPlan</IRI>
+        <Literal xml:lang="en">User Behavior Preferences LINDDUN L Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UserBehaviorPreferences-LINDDUN-MitigationPlan</IRI>
+        <Literal xml:lang="en">User Behavior Preferences LINDDUN Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UserBehaviorPreferences-LINDDUN-Nc-MitigationPlan</IRI>
+        <Literal xml:lang="en">User Behavior Preferences LINDDUN Nc Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UserBehaviorPreferences-LINDDUN-Nr-MitigationPlan</IRI>
+        <Literal xml:lang="en">User Behavior Preferences LINDDUN Nr Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UserBehaviorPreferences-LINDDUN-U-MitigationPlan</IRI>
+        <Literal xml:lang="en">User Behavior Preferences LINDDUN U Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#V2XMessage</IRI>
+        <Literal xml:lang="en">V2X Message</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#V2XMessage-STRIDE-D-MitigationPlan</IRI>
+        <Literal xml:lang="en">V2X Message STRIDE D Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#V2XMessage-STRIDE-E-MitigationPlan</IRI>
+        <Literal xml:lang="en">V2X Message STRIDE E Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#V2XMessage-STRIDE-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">V2X Message STRIDE I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#V2XMessage-STRIDE-MitigationPlan</IRI>
+        <Literal xml:lang="en">V2X Message STRIDE Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#V2XMessage-STRIDE-R-MitigationPlan</IRI>
+        <Literal xml:lang="en">V2X Message STRIDE R Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#V2XMessage-STRIDE-S-MitigationPlan</IRI>
+        <Literal xml:lang="en">V2X Message STRIDE S Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#V2XMessage-STRIDE-T-MitigationPlan</IRI>
+        <Literal xml:lang="en">V2X Message STRIDE T Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VehicleIdentifiers</IRI>
+        <Literal xml:lang="en">Vehicle Identifiers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VehicleIdentifiers-LINDDUN-De-MitigationPlan</IRI>
+        <Literal xml:lang="en">Vehicle Identifiers LINDDUN De Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VehicleIdentifiers-LINDDUN-Di-MitigationPlan</IRI>
+        <Literal xml:lang="en">Vehicle Identifiers LINDDUN Di Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VehicleIdentifiers-LINDDUN-I-MitigationPlan</IRI>
+        <Literal xml:lang="en">Vehicle Identifiers LINDDUN I Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VehicleIdentifiers-LINDDUN-L-MitigationPlan</IRI>
+        <Literal xml:lang="en">Vehicle Identifiers LINDDUN L Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VehicleIdentifiers-LINDDUN-MitigationPlan</IRI>
+        <Literal xml:lang="en">Vehicle Identifiers LINDDUN Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VehicleIdentifiers-LINDDUN-Nc-MitigationPlan</IRI>
+        <Literal xml:lang="en">Vehicle Identifiers LINDDUN Nc Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VehicleIdentifiers-LINDDUN-Nr-MitigationPlan</IRI>
+        <Literal xml:lang="en">Vehicle Identifiers LINDDUN Nr Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#VehicleIdentifiers-LINDDUN-U-MitigationPlan</IRI>
+        <Literal xml:lang="en">Vehicle Identifiers LINDDUN U Mitigation Plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAttackTarget</IRI>
+        <Literal xml:lang="en">has attack target</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDefendTarget</IRI>
+        <Literal xml:lang="en">has defend target</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasMeasure</IRI>
+        <Literal xml:lang="en">has measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTarget</IRI>
+        <Literal xml:lang="en">has target</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#mitigates</IRI>
+        <Literal xml:lang="en">mitigates</Literal>
     </AnnotationAssertion>
 </Ontology>
 
