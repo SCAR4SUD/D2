@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.unict.it/scar4sud.org/ontologies/automotive/secaronto"
+     xml:base="https://w3id.org/scar4sud/secaronto"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.unict.it/scar4sud.org/ontologies/automotive/secaronto">
+     ontologyIRI="https://w3id.org/scar4sud/secaronto"
+     versionIRI="https://w3id.org/scar4sud/secaronto/1.0.0">
     <Prefix name="" IRI="http://www.unict.it/scar4sud.org//ontologies/automotive/secaronto"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -28,6 +29,10 @@
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
         <Literal xml:lang="en">SeCarOnto</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>SECARONTO – SCAR4SUD Ontology</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://d3fend.mitre.org/ontologies/d3fend.owl#AccessPolicyAdministration"/>
@@ -9085,19 +9090,14 @@
         <Literal xml:lang="en">LINDDUN Threat Detectability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D1-1</IRI>
-        <Literal>D1.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Detectability-D1-1</IRI>
         <Literal xml:lang="en">Passive observer detects device presence via identifiers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D1-2</IRI>
-        <Literal>D1.2</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D1-1</IRI>
+        <Literal>D1.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9106,8 +9106,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D1-3</IRI>
-        <Literal>D1.3</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D1-2</IRI>
+        <Literal>D1.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9116,8 +9116,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D2-1</IRI>
-        <Literal>D2.1</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D1-3</IRI>
+        <Literal>D1.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9126,8 +9126,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D2-2</IRI>
-        <Literal>D2.2</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D2-1</IRI>
+        <Literal>D2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9136,8 +9136,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D2-3</IRI>
-        <Literal>D2.3</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D2-2</IRI>
+        <Literal>D2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9146,8 +9146,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D3-1</IRI>
-        <Literal>D3.1</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D2-3</IRI>
+        <Literal>D2.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9156,8 +9156,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D3-2</IRI>
-        <Literal>D3.2</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D3-1</IRI>
+        <Literal>D3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9166,8 +9166,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D3-3</IRI>
-        <Literal>D3.3</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D3-2</IRI>
+        <Literal>D3.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9176,8 +9176,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D4-1</IRI>
-        <Literal>D4.1</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D3-3</IRI>
+        <Literal>D3.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9186,8 +9186,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D4-2</IRI>
-        <Literal>D4.2</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D4-1</IRI>
+        <Literal>D4.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9196,8 +9196,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D4-3</IRI>
-        <Literal>D4.3</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D4-2</IRI>
+        <Literal>D4.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9206,8 +9206,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D5.1</IRI>
-        <Literal>D5.1</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D4-3</IRI>
+        <Literal>D4.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9215,14 +9215,14 @@
         <Literal xml:lang="en">Message content visible to passive listener</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-Detectability-D5.1</IRI>
+        <Literal>D5.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Detectability-D5.2</IRI>
         <Literal xml:lang="en">Unencrypted payload includes VIN</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D5.3</IRI>
-        <Literal>D5.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9231,8 +9231,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D6-1</IRI>
-        <Literal>D6.1</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D5.3</IRI>
+        <Literal>D5.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9241,8 +9241,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D6-2</IRI>
-        <Literal>D6.2</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D6-1</IRI>
+        <Literal>D6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9251,8 +9251,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D6-3</IRI>
-        <Literal>D6.3</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D6-2</IRI>
+        <Literal>D6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9261,8 +9261,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D8-1</IRI>
-        <Literal>D8.1</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D6-3</IRI>
+        <Literal>D6.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9271,8 +9271,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D8-2</IRI>
-        <Literal>D8.2</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D8-1</IRI>
+        <Literal>D8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9281,13 +9281,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Detectability-D8-3</IRI>
-        <Literal>D8.3</Literal>
+        <IRI>#LINDDUN-Threat-Detectability-D8-2</IRI>
+        <Literal>D8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Detectability-D8-3</IRI>
         <Literal xml:lang="en">Packet capture reveals authentication scheme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-Detectability-D8-3</IRI>
+        <Literal>D8.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
@@ -9300,19 +9305,14 @@
         <Literal xml:lang="en">Excessively collecting, storing, processing or sharing personal data.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D2-4</IRI>
-        <Literal>D2.4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-DisclosureOfInformation-D2-4</IRI>
         <Literal xml:lang="en">RSU records real-time traces without consent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D2-5</IRI>
-        <Literal>D2.5</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D2-4</IRI>
+        <Literal>D2.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9321,8 +9321,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D2-6</IRI>
-        <Literal>D2.6</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D2-5</IRI>
+        <Literal>D2.5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9331,8 +9331,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D3-4</IRI>
-        <Literal>D3.4</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D2-6</IRI>
+        <Literal>D2.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9341,8 +9341,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D3-5</IRI>
-        <Literal>D3.5</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D3-4</IRI>
+        <Literal>D3.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9351,8 +9351,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D3-6</IRI>
-        <Literal>D3.6</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D3-5</IRI>
+        <Literal>D3.5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9361,8 +9361,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D5-4</IRI>
-        <Literal>D5.4</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D3-6</IRI>
+        <Literal>D3.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9371,8 +9371,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D5-5</IRI>
-        <Literal>D5.5</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D5-4</IRI>
+        <Literal>D5.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9381,8 +9381,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D5-6</IRI>
-        <Literal>D5.6</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D5-5</IRI>
+        <Literal>D5.5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9391,8 +9391,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D6-4</IRI>
-        <Literal>D6.4</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D5-6</IRI>
+        <Literal>D5.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9401,8 +9401,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D6-5</IRI>
-        <Literal>D6.5</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D6-4</IRI>
+        <Literal>D6.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9411,8 +9411,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D6-6</IRI>
-        <Literal>D6.6</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D6-5</IRI>
+        <Literal>D6.5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9421,8 +9421,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D7-1</IRI>
-        <Literal>D7.1</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D6-6</IRI>
+        <Literal>D6.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9431,8 +9431,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D7-2</IRI>
-        <Literal>D7.2</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D7-1</IRI>
+        <Literal>D7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9441,13 +9441,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D7-3</IRI>
-        <Literal>D7.3</Literal>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D7-2</IRI>
+        <Literal>D7.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-DisclosureOfInformation-D7-3</IRI>
         <Literal xml:lang="en">Update requests traceable to unique ID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-DisclosureOfInformation-D7-3</IRI>
+        <Literal>D7.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9460,19 +9465,14 @@
         <Literal>LINDDUN Threat Identifiability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-5-1</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Identifiability-5-1</IRI>
         <Literal xml:lang="en">Message contains unredacted vehicle ID</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I1-1</IRI>
-        <Literal>I1.1</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-5-1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9481,8 +9481,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I1-2</IRI>
-        <Literal>I1.2</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I1-1</IRI>
+        <Literal>I1.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9491,8 +9491,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I1-3</IRI>
-        <Literal>I1.3</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I1-2</IRI>
+        <Literal>I1.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9501,8 +9501,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I2-1</IRI>
-        <Literal>I2.1</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I1-3</IRI>
+        <Literal>I1.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9511,8 +9511,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I2-2</IRI>
-        <Literal>I2.2</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I2-1</IRI>
+        <Literal>I2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9521,8 +9521,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I2-3</IRI>
-        <Literal>I2.3</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I2-2</IRI>
+        <Literal>I2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9531,8 +9531,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I3-1</IRI>
-        <Literal>I3.1</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I2-3</IRI>
+        <Literal>I2.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9541,8 +9541,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I3-2</IRI>
-        <Literal>I3.2</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I3-1</IRI>
+        <Literal>I3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9551,8 +9551,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I3-3</IRI>
-        <Literal>I3.3</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I3-2</IRI>
+        <Literal>I3.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9561,8 +9561,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I4-1</IRI>
-        <Literal>I4.1</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I3-3</IRI>
+        <Literal>I3.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9571,8 +9571,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I4-2</IRI>
-        <Literal>I4.2</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I4-1</IRI>
+        <Literal>I4.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9581,8 +9581,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I4-3</IRI>
-        <Literal>I4.3</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I4-2</IRI>
+        <Literal>I4.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9591,8 +9591,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I5-2</IRI>
-        <Literal>I5.2</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I4-3</IRI>
+        <Literal>I4.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9601,8 +9601,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I5-3</IRI>
-        <Literal>I5.3</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I5-2</IRI>
+        <Literal>I5.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9611,8 +9611,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I6-1</IRI>
-        <Literal>I6.1</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I5-3</IRI>
+        <Literal>I5.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9621,8 +9621,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I6-2</IRI>
-        <Literal>I6.2</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I6-1</IRI>
+        <Literal>I6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9631,8 +9631,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I6-3</IRI>
-        <Literal>I6.3</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I6-2</IRI>
+        <Literal>I6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9641,8 +9641,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I8-1</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.1</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I6-3</IRI>
+        <Literal>I6.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9651,13 +9651,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Identifiability-I8-2</IRI>
-        <Literal>I8.2</Literal>
+        <IRI>#LINDDUN-Threat-Identifiability-I8-1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Identifiability-I8-2</IRI>
         <Literal xml:lang="en">Certificate fingerprint used as account key</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-Identifiability-I8-2</IRI>
+        <Literal>I8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9685,19 +9690,14 @@
         <Literal xml:lang="en">LINDDUN Threat Linkability L1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L1-1</IRI>
-        <Literal>L1.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Linkability-L1-1</IRI>
         <Literal xml:lang="en">Linkage of short-term pseudonyms across sessions by timing or location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L1-2</IRI>
-        <Literal>L1.2</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L1-1</IRI>
+        <Literal>L1.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9706,8 +9706,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L1-3</IRI>
-        <Literal>L1.3</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L1-2</IRI>
+        <Literal>L1.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9716,8 +9716,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L2-1</IRI>
-        <Literal>L2.1</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L1-3</IRI>
+        <Literal>L1.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9726,8 +9726,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L2-2</IRI>
-        <Literal>L2.2</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L2-1</IRI>
+        <Literal>L2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9736,8 +9736,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L2-3</IRI>
-        <Literal>L2.3</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L2-2</IRI>
+        <Literal>L2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9746,8 +9746,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L3-1</IRI>
-        <Literal>L3.1</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L2-3</IRI>
+        <Literal>L2.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9756,8 +9756,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L3-2</IRI>
-        <Literal>L3.2</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L3-1</IRI>
+        <Literal>L3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9766,8 +9766,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L3-3</IRI>
-        <Literal>L3.3</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L3-2</IRI>
+        <Literal>L3.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9776,8 +9776,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L4-1</IRI>
-        <Literal>L4.1</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L3-3</IRI>
+        <Literal>L3.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9786,8 +9786,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L4-2</IRI>
-        <Literal>L4.2</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L4-1</IRI>
+        <Literal>L4.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9795,14 +9795,14 @@
         <Literal xml:lang="en">Usage logs map driving style to pseudonym</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-Linkability-L4-2</IRI>
+        <Literal>L4.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Linkability-L4-3</IRI>
         <Literal xml:lang="en">Re-identification via personalized configuration</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L6-1</IRI>
-        <Literal>L6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9811,8 +9811,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L6-2</IRI>
-        <Literal>L6.2</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L6-1</IRI>
+        <Literal>L6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9821,8 +9821,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L6-3</IRI>
-        <Literal>L6.3</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L6-2</IRI>
+        <Literal>L6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9831,8 +9831,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L8-1</IRI>
-        <Literal>L8.1</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L6-3</IRI>
+        <Literal>L6.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9841,13 +9841,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Linkability-L8-2</IRI>
-        <Literal>L8.2</Literal>
+        <IRI>#LINDDUN-Threat-Linkability-L8-1</IRI>
+        <Literal>L8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Linkability-L8-2</IRI>
         <Literal xml:lang="en">Upload timestamps link multiple identifiers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-Linkability-L8-2</IRI>
+        <Literal>L8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9865,19 +9870,14 @@
         <Literal xml:lang="en">LINDDUN Threat Non Compliance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N1-4</IRI>
-        <Literal>N1.4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-NonCompliance-N1-4</IRI>
         <Literal xml:lang="en">Misleading interface prevents revocation verification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N1-5</IRI>
-        <Literal>N1.5</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N1-4</IRI>
+        <Literal>N1.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9886,8 +9886,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N1-6</IRI>
-        <Literal>N1.6</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N1-5</IRI>
+        <Literal>N1.5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9896,8 +9896,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N4-4</IRI>
-        <Literal>N4.4</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N1-6</IRI>
+        <Literal>N1.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9906,8 +9906,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N4-5</IRI>
-        <Literal>N4.5</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N4-4</IRI>
+        <Literal>N4.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9916,8 +9916,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N4-6</IRI>
-        <Literal>N4.6</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N4-5</IRI>
+        <Literal>N4.5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9926,8 +9926,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N6-4</IRI>
-        <Literal>N6.4</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N4-6</IRI>
+        <Literal>N4.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9936,8 +9936,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N6-5</IRI>
-        <Literal>N6.5</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N6-4</IRI>
+        <Literal>N6.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9946,8 +9946,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N6-6</IRI>
-        <Literal>N6.6</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N6-5</IRI>
+        <Literal>N6.5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9956,8 +9956,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N8-4</IRI>
-        <Literal>N8.4</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N6-6</IRI>
+        <Literal>N6.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9966,8 +9966,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N8-5</IRI>
-        <Literal>N8.5</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N8-4</IRI>
+        <Literal>N8.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9976,13 +9976,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonCompliance-N8-6</IRI>
-        <Literal>N8.6</Literal>
+        <IRI>#LINDDUN-Threat-NonCompliance-N8-5</IRI>
+        <Literal>N8.5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-NonCompliance-N8-6</IRI>
         <Literal xml:lang="en">System logs deny user’s unlinking attempt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-NonCompliance-N8-6</IRI>
+        <Literal>N8.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -9995,19 +10000,14 @@
         <Literal xml:lang="en">LINDDUN Threat Non Repudiation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N1-1</IRI>
-        <Literal>N1.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-NonRepudiation-N1-1</IRI>
         <Literal xml:lang="en">Lack of evidence linking actions to a specific identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N1-2</IRI>
-        <Literal>N1.2</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N1-1</IRI>
+        <Literal>N1.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10016,8 +10016,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N1-3</IRI>
-        <Literal>N1.3</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N1-2</IRI>
+        <Literal>N1.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10026,8 +10026,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N2-1</IRI>
-        <Literal>N2.1</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N1-3</IRI>
+        <Literal>N1.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10036,8 +10036,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N2-2</IRI>
-        <Literal>N2.2</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N2-1</IRI>
+        <Literal>N2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10046,8 +10046,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N2-3</IRI>
-        <Literal>N2.3</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N2-2</IRI>
+        <Literal>N2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10056,8 +10056,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N3-1</IRI>
-        <Literal>N3.1</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N2-3</IRI>
+        <Literal>N2.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10066,8 +10066,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N3-2</IRI>
-        <Literal>N3.2</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N3-1</IRI>
+        <Literal>N3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10076,8 +10076,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N3-3</IRI>
-        <Literal>N3.3</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N3-2</IRI>
+        <Literal>N3.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10086,8 +10086,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N4-1</IRI>
-        <Literal>N4.1</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N3-3</IRI>
+        <Literal>N3.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10096,8 +10096,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N4-2</IRI>
-        <Literal>N4.2</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N4-1</IRI>
+        <Literal>N4.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10106,8 +10106,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N4-3</IRI>
-        <Literal>N4.3</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N4-2</IRI>
+        <Literal>N4.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10116,8 +10116,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N6-1</IRI>
-        <Literal>N6.1</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N4-3</IRI>
+        <Literal>N4.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10126,8 +10126,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N6-2</IRI>
-        <Literal>N6.2</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N6-1</IRI>
+        <Literal>N6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10136,8 +10136,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N6-3</IRI>
-        <Literal>N6.3</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N6-2</IRI>
+        <Literal>N6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10146,8 +10146,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N8-1</IRI>
-        <Literal>N8.1</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N6-3</IRI>
+        <Literal>N6.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10156,8 +10156,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N8-2</IRI>
-        <Literal>N8.2</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N8-1</IRI>
+        <Literal>N8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10166,13 +10166,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-NonRepudiation-N8-3</IRI>
-        <Literal>N8.3</Literal>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N8-2</IRI>
+        <Literal>N8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-NonRepudiation-N8-3</IRI>
         <Literal xml:lang="en">Logs contain conflicting identifiers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-NonRepudiation-N8-3</IRI>
+        <Literal>N8.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10185,19 +10190,14 @@
         <Literal xml:lang="en">LINDDUN Threat Unawareness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U2-1</IRI>
-        <Literal>U2.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Unawareness-U2-1</IRI>
         <Literal xml:lang="en">User not informed that location is transmitted every 100ms</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U2-2</IRI>
-        <Literal>U2.2</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U2-1</IRI>
+        <Literal>U2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10206,8 +10206,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U2-3</IRI>
-        <Literal>U2.3</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U2-2</IRI>
+        <Literal>U2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10216,8 +10216,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U3-1</IRI>
-        <Literal>U3.1</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U2-3</IRI>
+        <Literal>U2.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10226,8 +10226,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U3-2</IRI>
-        <Literal>U3.2</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U3-1</IRI>
+        <Literal>U3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10236,8 +10236,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U3-3</IRI>
-        <Literal>U3.3</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U3-2</IRI>
+        <Literal>U3.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10246,8 +10246,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U4-1</IRI>
-        <Literal>U4.1</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U3-3</IRI>
+        <Literal>U3.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10256,8 +10256,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U4-2</IRI>
-        <Literal>U4.2</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U4-1</IRI>
+        <Literal>U4.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10265,14 +10265,14 @@
         <Literal xml:lang="en">Consent banner hidden or default opt-in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-Unawareness-U4-2</IRI>
+        <Literal>U4.2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Unawareness-U4-3</IRI>
         <Literal xml:lang="en">No privacy dashboard to review data usage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U5-1</IRI>
-        <Literal>U5.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10281,8 +10281,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U5-2</IRI>
-        <Literal>U5.2</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U5-1</IRI>
+        <Literal>U5.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10291,8 +10291,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U5-3</IRI>
-        <Literal>U5.3</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U5-2</IRI>
+        <Literal>U5.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10301,8 +10301,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U6-1</IRI>
-        <Literal>U6.1</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U5-3</IRI>
+        <Literal>U5.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10311,8 +10311,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U6-2</IRI>
-        <Literal>U6.2</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U6-1</IRI>
+        <Literal>U6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10321,8 +10321,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U6-3</IRI>
-        <Literal>U6.3</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U6-2</IRI>
+        <Literal>U6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10331,8 +10331,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U7-1</IRI>
-        <Literal>U7.1</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U6-3</IRI>
+        <Literal>U6.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10341,8 +10341,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U7-2</IRI>
-        <Literal>U7.2</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U7-1</IRI>
+        <Literal>U7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10351,8 +10351,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U7-3</IRI>
-        <Literal>U7.3</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U7-2</IRI>
+        <Literal>U7.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10361,8 +10361,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U8-1</IRI>
-        <Literal>U8.1</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U7-3</IRI>
+        <Literal>U7.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10371,8 +10371,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U8-2</IRI>
-        <Literal>U8.2</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U8-1</IRI>
+        <Literal>U8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10381,13 +10381,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#LINDDUN-Threat-Unawareness-U8-3</IRI>
-        <Literal>U8.3</Literal>
+        <IRI>#LINDDUN-Threat-Unawareness-U8-2</IRI>
+        <Literal>U8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LINDDUN-Threat-Unawareness-U8-3</IRI>
         <Literal xml:lang="en">Account deletion does not revoke tokens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#LINDDUN-Threat-Unawareness-U8-3</IRI>
+        <Literal>U8.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10731,11 +10736,6 @@ cluding profiling</Literal>
         <Literal xml:lang="en">RSU Trust Components STRIDE T Mitigation Plan</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM01</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#SM01</IRI>
         <Literal xml:lang="en">Protect information stored on, processed by or acces-
@@ -10743,8 +10743,8 @@ sible via user endpoint devices</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM02</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.2</Literal>
+        <IRI>#SM01</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10754,8 +10754,8 @@ leged access rights</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM03</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.3</Literal>
+        <IRI>#SM02</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10766,8 +10766,8 @@ specific policy on access control</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM04</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.4</Literal>
+        <IRI>#SM03</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10777,8 +10777,8 @@ opment tools and software libraries</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM05</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.5</Literal>
+        <IRI>#SM04</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10789,8 +10789,8 @@ and the topic-specific policy on access control</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM06</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.6</Literal>
+        <IRI>#SM05</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10800,8 +10800,8 @@ current and expected capacity requirements</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM07</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.7</Literal>
+        <IRI>#SM06</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10811,8 +10811,8 @@ by appropriate user awareness</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM08</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.8</Literal>
+        <IRI>#SM07</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.7</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10824,8 +10824,8 @@ propriate measures</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM09</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.9</Literal>
+        <IRI>#SM08</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.8</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10836,8 +10836,8 @@ hardware, software, services and networks</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM10</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.1</Literal>
+        <IRI>#SM09</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.9</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10848,8 +10848,8 @@ required</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM11</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.11</Literal>
+        <IRI>#SM10</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10861,8 +10861,8 @@ ments, taking applicable legislation into consideration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM12</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.12</Literal>
+        <IRI>#SM11</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.11</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10873,8 +10873,8 @@ transmit sensitive information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM13</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.13</Literal>
+        <IRI>#SM12</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.12</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10885,8 +10885,8 @@ specific policy on backup</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM14</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.14</Literal>
+        <IRI>#SM13</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.13</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10896,8 +10896,8 @@ dundancy sufficient to meet availability requirements</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM15</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.15</Literal>
+        <IRI>#SM14</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.14</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10907,8 +10907,8 @@ activities, exceptions, faults and other relevant events</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM16</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.16</Literal>
+        <IRI>#SM15</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.15</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10919,8 +10919,8 @@ to evaluate potential information security incidents</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM17</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.17</Literal>
+        <IRI>#SM16</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.16</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10931,8 +10931,8 @@ sources</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM18</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.18</Literal>
+        <IRI>#SM17</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.17</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10943,8 +10943,8 @@ controls</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM19</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.19</Literal>
+        <IRI>#SM18</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.18</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10954,8 +10954,8 @@ age software installation on operational systems</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM20</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.2</Literal>
+        <IRI>#SM19</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.19</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10966,8 +10966,8 @@ tions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM21</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.21</Literal>
+        <IRI>#SM20</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10978,8 +10978,8 @@ work services</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM22</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.22</Literal>
+        <IRI>#SM21</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.21</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10989,8 +10989,8 @@ information systems in the organization’s networks</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM23</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.23</Literal>
+        <IRI>#SM22</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.22</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11000,8 +11000,8 @@ sure to malicious content</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM24</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.24</Literal>
+        <IRI>#SM23</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.23</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11012,8 +11012,8 @@ ment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM25</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.25</Literal>
+        <IRI>#SM24</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.24</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11023,8 +11023,8 @@ of software and systems</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM26</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.26</Literal>
+        <IRI>#SM25</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.25</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11034,8 +11034,8 @@ quirements when developing or acquiring applications</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM27</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.27</Literal>
+        <IRI>#SM26</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.26</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11046,8 +11046,8 @@ tem development activities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM28</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.28</Literal>
+        <IRI>#SM27</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.27</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11057,8 +11057,8 @@ ment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM29</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.29</Literal>
+        <IRI>#SM28</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.28</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11068,8 +11068,8 @@ development lifecycle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM30</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.3</Literal>
+        <IRI>#SM29</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.29</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11079,8 +11079,8 @@ outsourced system development</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM31</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.31</Literal>
+        <IRI>#SM30</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11090,8 +11090,8 @@ tion environments</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM32</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.32</Literal>
+        <IRI>#SM31</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.31</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11102,8 +11102,8 @@ cedures</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM33</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.33</Literal>
+        <IRI>#SM32</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.32</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11112,8 +11112,8 @@ cedures</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#SM34</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.34</Literal>
+        <IRI>#SM33</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.33</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11121,6 +11121,11 @@ cedures</Literal>
         <Literal xml:lang="en">Plan and agree audit tests and other assurance ac-
 tivities involving assessment of operational systems
 between the tester and appropriate management</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#SM34</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">8.34</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11143,19 +11148,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">STRIDE Threat Denial of Service D10</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D10-1</IRI>
-        <Literal>D10.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-DenialOfService-D10-1</IRI>
         <Literal xml:lang="en">RSU overwhelmed by fake broadcast traffic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D10-2</IRI>
-        <Literal>D10.2</Literal>
+        <IRI>#STRIDE-Threat-DenialOfService-D10-1</IRI>
+        <Literal>D10.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11164,8 +11164,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D10-3</IRI>
-        <Literal>D10.3</Literal>
+        <IRI>#STRIDE-Threat-DenialOfService-D10-2</IRI>
+        <Literal>D10.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11173,14 +11173,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Channel flooding disrupts message forwarding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-DenialOfService-D10-3</IRI>
+        <Literal>D10.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-DenialOfService-D6</IRI>
         <Literal xml:lang="en">STRIDE Threat Denial of Service D6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D6-1</IRI>
-        <Literal>D6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11189,8 +11189,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D6-2</IRI>
-        <Literal>D6.2</Literal>
+        <IRI>#STRIDE-Threat-DenialOfService-D6-1</IRI>
+        <Literal>D6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11199,8 +11199,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D6-3</IRI>
-        <Literal>D6.3</Literal>
+        <IRI>#STRIDE-Threat-DenialOfService-D6-2</IRI>
+        <Literal>D6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11208,14 +11208,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Repeated session renegotiation causes channel instability</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-DenialOfService-D6-3</IRI>
+        <Literal>D6.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-DenialOfService-D7</IRI>
         <Literal xml:lang="en">STRIDE Threat Denial of Service D7</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D7-2</IRI>
-        <Literal>D7.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11224,8 +11224,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D7-3</IRI>
-        <Literal>D7.3</Literal>
+        <IRI>#STRIDE-Threat-DenialOfService-D7-2</IRI>
+        <Literal>D7.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11234,8 +11234,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D7.1</IRI>
-        <Literal>D7.1</Literal>
+        <IRI>#STRIDE-Threat-DenialOfService-D7-3</IRI>
+        <Literal>D7.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11243,14 +11243,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Resource exhaustion via malformed API calls.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-DenialOfService-D7.1</IRI>
+        <Literal>D7.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-DenialOfService-D9</IRI>
         <Literal xml:lang="en">STRIDE Threat Denial of Service D9</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D9-1</IRI>
-        <Literal>D9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11259,8 +11259,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D9-2</IRI>
-        <Literal>D9.2</Literal>
+        <IRI>#STRIDE-Threat-DenialOfService-D9-1</IRI>
+        <Literal>D9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11269,13 +11269,18 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-DenialOfService-D9-3</IRI>
-        <Literal>D9.3</Literal>
+        <IRI>#STRIDE-Threat-DenialOfService-D9-2</IRI>
+        <Literal>D9.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-DenialOfService-D9-3</IRI>
         <Literal xml:lang="en">Key rotation flood affects downstream systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-DenialOfService-D9-3</IRI>
+        <Literal>D9.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11288,19 +11293,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E10</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10-1</IRI>
-        <Literal>E10.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10-1</IRI>
         <Literal xml:lang="en">Exploitation of RSU stack vulnerability for code execution</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10-2</IRI>
-        <Literal>E10.2</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10-1</IRI>
+        <Literal>E10.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11309,8 +11309,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10-3</IRI>
-        <Literal>E10.3</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10-2</IRI>
+        <Literal>E10.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11318,14 +11318,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Privilege escalation using firmware bug in RSU</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E10-3</IRI>
+        <Literal>E10.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E2</IRI>
         <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E2-1</IRI>
-        <Literal>E2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11334,8 +11334,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E2-2</IRI>
-        <Literal>E2.2</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E2-1</IRI>
+        <Literal>E2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11344,8 +11344,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E2-3</IRI>
-        <Literal>E2.3</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E2-2</IRI>
+        <Literal>E2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11353,14 +11353,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Misuse of system APIs enables overwriting trusted identity fields</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E2-3</IRI>
+        <Literal>E2.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6</IRI>
         <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6-1</IRI>
-        <Literal>E6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11369,8 +11369,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6-2</IRI>
-        <Literal>E6.2</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6-1</IRI>
+        <Literal>E6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11379,8 +11379,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6-3</IRI>
-        <Literal>E6.3</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6-2</IRI>
+        <Literal>E6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11388,14 +11388,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Compromise of network stack to gain control of communication</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E6-3</IRI>
+        <Literal>E6.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E7</IRI>
         <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E7</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E7-1</IRI>
-        <Literal>E7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11404,8 +11404,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E7-2</IRI>
-        <Literal>E7.2</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E7-1</IRI>
+        <Literal>E7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11414,8 +11414,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E7-3</IRI>
-        <Literal>E7.3</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E7-2</IRI>
+        <Literal>E7.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11423,14 +11423,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Exploitation of race conditions in key management logic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E7-3</IRI>
+        <Literal>E7.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-ElevationOfPrivilege-E9</IRI>
         <Literal xml:lang="en">STRIDE Threat Elevation of Privilege E9</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E9-1</IRI>
-        <Literal>E9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11439,8 +11439,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E9-2</IRI>
-        <Literal>E9.2</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E9-1</IRI>
+        <Literal>E9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11449,8 +11449,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E9-3</IRI>
-        <Literal>E9.3</Literal>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E9-2</IRI>
+        <Literal>E9.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11458,14 +11458,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Privileged access exploited to forge revocation entries</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-ElevationOfPrivilege-E9-3</IRI>
+        <Literal>E9.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-4.1</IRI>
-        <Literal>I4.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11473,14 +11473,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Debug access leaks boot measurements.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-4.1</IRI>
+        <Literal>I4.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I1</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I1-1</IRI>
-        <Literal>I1.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11489,8 +11489,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I1-2</IRI>
-        <Literal>I1.2</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I1-1</IRI>
+        <Literal>I1.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11499,8 +11499,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I1-3</IRI>
-        <Literal>I1.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I1-2</IRI>
+        <Literal>I1.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11508,14 +11508,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">ebug interface allows reading sensitive keys in cleartext</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I1-3</IRI>
+        <Literal>I1.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I10</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L10</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I10-1</IRI>
-        <Literal>I10.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11524,8 +11524,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I10-2</IRI>
-        <Literal>I10.2</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I10-1</IRI>
+        <Literal>I10.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11534,8 +11534,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I10-3</IRI>
-        <Literal>I10.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I10-2</IRI>
+        <Literal>I10.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11543,14 +11543,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">RSU-to-cloud link unencrypted, leaks usage data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I10-3</IRI>
+        <Literal>I10.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I2</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I2-1</IRI>
-        <Literal>I2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11559,8 +11559,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I2-2</IRI>
-        <Literal>I2.2</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I2-1</IRI>
+        <Literal>I2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11569,8 +11569,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I2-3</IRI>
-        <Literal>I2.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I2-2</IRI>
+        <Literal>I2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11578,14 +11578,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Certificate chain inspection reveals persistent identifiers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I2-3</IRI>
+        <Literal>I2.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I3</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I3-1</IRI>
-        <Literal>I3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11594,8 +11594,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I3-2</IRI>
-        <Literal>I3.2</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I3-1</IRI>
+        <Literal>I3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11604,8 +11604,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I3-3</IRI>
-        <Literal>I3.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I3-2</IRI>
+        <Literal>I3.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11613,14 +11613,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Logging of credentials in debug output</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I3-3</IRI>
+        <Literal>I3.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I4</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I4-2</IRI>
-        <Literal>I4.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11629,8 +11629,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I4-3</IRI>
-        <Literal>I4.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I4-2</IRI>
+        <Literal>I4.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11638,14 +11638,14 @@ between the tester and appropriate management</Literal>
         <Literal xml:lang="en">Timing attacks reveal firmware branching based on verification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I4-3</IRI>
+        <Literal>I4.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I5</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I5-1</IRI>
-        <Literal>I5.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11654,8 +11654,8 @@ between the tester and appropriate management</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I5-2</IRI>
-        <Literal>I5.2</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I5-1</IRI>
+        <Literal>I5.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11665,8 +11665,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I5-3</IRI>
-        <Literal>I5.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I5-2</IRI>
+        <Literal>I5.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11674,14 +11674,14 @@ sage metadata</Literal>
         <Literal xml:lang="en">Misconfigured encryption leaves safety data in cleartext</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I5-3</IRI>
+        <Literal>I5.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I6</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I6-1</IRI>
-        <Literal>I6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11690,8 +11690,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I6-2</IRI>
-        <Literal>I6.2</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I6-1</IRI>
+        <Literal>I6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11700,8 +11700,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I6-3</IRI>
-        <Literal>I6.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I6-2</IRI>
+        <Literal>I6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11709,14 +11709,14 @@ sage metadata</Literal>
         <Literal xml:lang="en">Key reuse exposes communication pattern</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I6-3</IRI>
+        <Literal>I6.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I7</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L7</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I7-1</IRI>
-        <Literal>I7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11725,8 +11725,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I7-2</IRI>
-        <Literal>I7.2</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I7-1</IRI>
+        <Literal>I7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11735,8 +11735,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I7-3</IRI>
-        <Literal>I7.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I7-2</IRI>
+        <Literal>I7.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11744,14 +11744,14 @@ sage metadata</Literal>
         <Literal xml:lang="en">Input/output logs inadvertently expose data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I7-3</IRI>
+        <Literal>I7.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I8</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I8-1</IRI>
-        <Literal>I8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11760,8 +11760,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I8-2</IRI>
-        <Literal>I8.2</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I8-1</IRI>
+        <Literal>I8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11770,8 +11770,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I8-3</IRI>
-        <Literal>I8.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I8-2</IRI>
+        <Literal>I8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11779,14 +11779,14 @@ sage metadata</Literal>
         <Literal xml:lang="en">Log aggregation server leaks context via misconfiguration</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I8-3</IRI>
+        <Literal>I8.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I9</IRI>
         <Literal xml:lang="en">STRIDE Threat Information Disclosure L9</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I9-1</IRI>
-        <Literal>I9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11795,8 +11795,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I9-2</IRI>
-        <Literal>I9.2</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I9-1</IRI>
+        <Literal>I9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11805,13 +11805,18 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-InformationDisclosure-I9-3</IRI>
-        <Literal>I9.3</Literal>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I9-2</IRI>
+        <Literal>I9.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-InformationDisclosure-I9-3</IRI>
         <Literal xml:lang="en">API returns active certificate list without access control.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-InformationDisclosure-I9-3</IRI>
+        <Literal>I9.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -11824,19 +11829,14 @@ sage metadata</Literal>
         <Literal xml:lang="en">STRIDE Threat Repudation R10</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R10-1</IRI>
-        <Literal>R10.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-Repudation-R10-1</IRI>
         <Literal xml:lang="en">RSU log altered to omit unauthorised relays</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R10-2</IRI>
-        <Literal>R10.2</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R10-1</IRI>
+        <Literal>R10.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11845,8 +11845,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R10-3</IRI>
-        <Literal>R10.3</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R10-2</IRI>
+        <Literal>R10.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11854,14 +11854,14 @@ sage metadata</Literal>
         <Literal xml:lang="en">RSU denies participating in broadcast session</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-Repudation-R10-3</IRI>
+        <Literal>R10.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-Repudation-R2</IRI>
         <Literal xml:lang="en">STRIDE Threat Repudation R2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R2-1</IRI>
-        <Literal>R2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11870,8 +11870,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R2-2</IRI>
-        <Literal>R2.2</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R2-1</IRI>
+        <Literal>R2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11880,8 +11880,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R2-3</IRI>
-        <Literal>R2.3</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R2-2</IRI>
+        <Literal>R2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11889,14 +11889,14 @@ sage metadata</Literal>
         <Literal xml:lang="en">Rollback of identity state using outdated firmware</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-Repudation-R2-3</IRI>
+        <Literal>R2.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-Repudation-R6</IRI>
         <Literal xml:lang="en">STRIDE Threat Repudation R6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R6-1</IRI>
-        <Literal>R6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11905,8 +11905,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R6-2</IRI>
-        <Literal>R6.2</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R6-1</IRI>
+        <Literal>R6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11915,8 +11915,8 @@ sage metadata</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R6-3</IRI>
-        <Literal>R6.3</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R6-2</IRI>
+        <Literal>R6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11925,14 +11925,14 @@ sage metadata</Literal>
 identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-Repudation-R6-3</IRI>
+        <Literal>R6.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-Repudation-R7</IRI>
         <Literal xml:lang="en">STRIDE Threat Repudation R7</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R7-1</IRI>
-        <Literal>R7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11941,8 +11941,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R7-2</IRI>
-        <Literal>R7.2</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R7-1</IRI>
+        <Literal>R7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11951,8 +11951,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R7-3</IRI>
-        <Literal>R7.3</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R7-2</IRI>
+        <Literal>R7.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11960,14 +11960,14 @@ identities</Literal>
         <Literal xml:lang="en">Invocation record spoofed to create audit gaps</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-Repudation-R7-3</IRI>
+        <Literal>R7.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-Repudation-R8</IRI>
         <Literal xml:lang="en">STRIDE Threat Repudation R8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R8-1</IRI>
-        <Literal>R8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11976,8 +11976,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R8-2</IRI>
-        <Literal>R8.2</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R8-1</IRI>
+        <Literal>R8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11986,8 +11986,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R8-3</IRI>
-        <Literal>R8.3</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R8-2</IRI>
+        <Literal>R8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -11995,14 +11995,14 @@ identities</Literal>
         <Literal xml:lang="en">False denial of past actions despite evidence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-Repudation-R8-3</IRI>
+        <Literal>R8.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-Repudation-R9</IRI>
         <Literal xml:lang="en">STRIDE Threat Repudation R9</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R9-1</IRI>
-        <Literal>R9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12011,8 +12011,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R9-2</IRI>
-        <Literal>R9.2</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R9-1</IRI>
+        <Literal>R9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12021,13 +12021,18 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-Repudation-R9-3</IRI>
-        <Literal>R9.3</Literal>
+        <IRI>#STRIDE-Threat-Repudation-R9-2</IRI>
+        <Literal>R9.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-Repudation-R9-3</IRI>
         <Literal xml:lang="en">Lack of audit trails for revocation actions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-Repudation-R9-3</IRI>
+        <Literal>R9.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12040,19 +12045,14 @@ identities</Literal>
         <Literal xml:lang="en">STRIDE Threat Spoofing Identity S1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S1-1</IRI>
-        <Literal>S1.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S1-1</IRI>
         <Literal xml:lang="en">Impersonation using stolen keys from a compromised TPM</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S1-2</IRI>
-        <Literal>S1.2</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S1-1</IRI>
+        <Literal>S1.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12061,8 +12061,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S1-3</IRI>
-        <Literal>S1.3</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S1-2</IRI>
+        <Literal>S1.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12070,14 +12070,14 @@ identities</Literal>
         <Literal xml:lang="en">Replay of signed messages using extracted keys.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S1-3</IRI>
+        <Literal>S1.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S10</IRI>
         <Literal xml:lang="en">STRIDE Threat Spoofing Identity S10</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S10-1</IRI>
-        <Literal>S10.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12086,8 +12086,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S10-2</IRI>
-        <Literal>S10.2</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S10-1</IRI>
+        <Literal>S10.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12096,8 +12096,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S10-3</IRI>
-        <Literal>S10.3</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S10-2</IRI>
+        <Literal>S10.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12105,14 +12105,14 @@ identities</Literal>
         <Literal xml:lang="en">Replay of previously valid RSU broadcasts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S10-3</IRI>
+        <Literal>S10.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S2</IRI>
         <Literal xml:lang="en">STRIDE Threat Spoofing Identity S2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S2-1</IRI>
-        <Literal>S2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12121,8 +12121,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S2-2</IRI>
-        <Literal>S2.2</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S2-1</IRI>
+        <Literal>S2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12131,8 +12131,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S2-3</IRI>
-        <Literal>S2.3</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S2-2</IRI>
+        <Literal>S2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12140,14 +12140,14 @@ identities</Literal>
         <Literal xml:lang="en">Impersonation of another vehicle to manipulate traffic behaviour.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S2-3</IRI>
+        <Literal>S2.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S3</IRI>
         <Literal xml:lang="en">STRIDE Threat Spoofing Identity S3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S3-1</IRI>
-        <Literal>S3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12156,8 +12156,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S3-2</IRI>
-        <Literal>S3.2</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S3-1</IRI>
+        <Literal>S3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12166,8 +12166,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S3-3</IRI>
-        <Literal>S3.3</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S3-2</IRI>
+        <Literal>S3.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12175,14 +12175,14 @@ identities</Literal>
         <Literal xml:lang="en">Attacker reuses TLS session ticket to impersonate vehicle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S3-3</IRI>
+        <Literal>S3.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S4</IRI>
         <Literal xml:lang="en">STRIDE Threat Spoofing Identity S4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S4-1</IRI>
-        <Literal>S4.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12191,8 +12191,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S4-2</IRI>
-        <Literal>S4.2</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S4-1</IRI>
+        <Literal>S4.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12201,8 +12201,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S4-3</IRI>
-        <Literal>S4.3</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S4-2</IRI>
+        <Literal>S4.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12210,14 +12210,14 @@ identities</Literal>
         <Literal xml:lang="en">Use of obsolete trusted root to fakeboot integrity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S4-3</IRI>
+        <Literal>S4.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S5</IRI>
         <Literal xml:lang="en">STRIDE Threat Spoofing Identity S5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S5-1</IRI>
-        <Literal>S5.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12226,8 +12226,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S5-2</IRI>
-        <Literal>S5.2</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S5-1</IRI>
+        <Literal>S5.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12236,8 +12236,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S5-3</IRI>
-        <Literal>S5.3</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S5-2</IRI>
+        <Literal>S5.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12245,14 +12245,14 @@ identities</Literal>
         <Literal xml:lang="en">Use of spoofed vehicle ID in signed payload</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S5-3</IRI>
+        <Literal>S5.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S6</IRI>
         <Literal xml:lang="en">STRIDE Threat Spoofing Identity S6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S6-1</IRI>
-        <Literal>S6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12261,8 +12261,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S6-2</IRI>
-        <Literal>S6.2</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S6-1</IRI>
+        <Literal>S6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12271,8 +12271,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S6-3</IRI>
-        <Literal>S6.3</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S6-2</IRI>
+        <Literal>S6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12280,14 +12280,14 @@ identities</Literal>
         <Literal xml:lang="en">Impersonation using a cloned MAC address</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S6-3</IRI>
+        <Literal>S6.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S7</IRI>
         <Literal xml:lang="en">STRIDE Threat Spoofing Identity S7</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S7-1</IRI>
-        <Literal>S7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12296,8 +12296,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S7-2</IRI>
-        <Literal>S7.2</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S7-1</IRI>
+        <Literal>S7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12306,8 +12306,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S7-3</IRI>
-        <Literal>S7.3</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S7-2</IRI>
+        <Literal>S7.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12315,14 +12315,14 @@ identities</Literal>
         <Literal xml:lang="en">Unauthorised API call mimics legitimate service</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S7-3</IRI>
+        <Literal>S7.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S9</IRI>
         <Literal xml:lang="en">STRIDE Threat Spoofing Identity S9</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S9-1</IRI>
-        <Literal>S9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12331,8 +12331,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S9-2</IRI>
-        <Literal>S9.2</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S9-1</IRI>
+        <Literal>S9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12341,13 +12341,18 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-SpoofingIdentity-S9-3</IRI>
-        <Literal>S9.3</Literal>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S9-2</IRI>
+        <Literal>S9.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-SpoofingIdentity-S9-3</IRI>
         <Literal xml:lang="en">Phishing backend admin to approve rogue identity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-SpoofingIdentity-S9-3</IRI>
+        <Literal>S9.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -12360,19 +12365,14 @@ identities</Literal>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T1-1</IRI>
-        <Literal>T1.1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T1-1</IRI>
         <Literal xml:lang="en">Attacker modifies stored key material to alter message signing results</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T1-2</IRI>
-        <Literal>T1.2</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T1-1</IRI>
+        <Literal>T1.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12381,8 +12381,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T1-3</IRI>
-        <Literal>T1.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T1-2</IRI>
+        <Literal>T1.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12391,14 +12391,14 @@ identities</Literal>
 (e.g., reuse of expired keys)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T1-3</IRI>
+        <Literal>T1.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T10</IRI>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T10</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T10-1</IRI>
-        <Literal>T10.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12407,8 +12407,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T10-2</IRI>
-        <Literal>T10.2</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T10-1</IRI>
+        <Literal>T10.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12417,8 +12417,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T10-3</IRI>
-        <Literal>T10.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T10-2</IRI>
+        <Literal>T10.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12426,14 +12426,14 @@ identities</Literal>
         <Literal xml:lang="en">Injection of unsigned RSU messages</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T10-3</IRI>
+        <Literal>T10.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T2</IRI>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T2-1</IRI>
-        <Literal>T2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12442,8 +12442,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T2-2</IRI>
-        <Literal>T2.2</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T2-1</IRI>
+        <Literal>T2.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12452,8 +12452,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T2-3</IRI>
-        <Literal>T2.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T2-2</IRI>
+        <Literal>T2.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12461,14 +12461,14 @@ identities</Literal>
         <Literal xml:lang="en">Memory corruption leads to altered identity representation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T2-3</IRI>
+        <Literal>T2.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T3</IRI>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T3-1</IRI>
-        <Literal>T3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12477,8 +12477,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T3-2</IRI>
-        <Literal>T3.2</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T3-1</IRI>
+        <Literal>T3.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12487,8 +12487,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T3-3</IRI>
-        <Literal>T3.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T3-2</IRI>
+        <Literal>T3.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12496,14 +12496,14 @@ identities</Literal>
         <Literal xml:lang="en">MITM alters session handshake credentials</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T3-3</IRI>
+        <Literal>T3.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T4</IRI>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T4</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T4-2</IRI>
-        <Literal>T4.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12512,8 +12512,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T4-3</IRI>
-        <Literal>T4.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T4-2</IRI>
+        <Literal>T4.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12522,8 +12522,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T4.1</IRI>
-        <Literal>T4.1</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T4-3</IRI>
+        <Literal>T4.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12531,14 +12531,14 @@ identities</Literal>
         <Literal xml:lang="en">Firmware image tampering prior to installation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T4.1</IRI>
+        <Literal>T4.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T5</IRI>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T5</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T5-1</IRI>
-        <Literal>T5.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12547,8 +12547,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T5-2</IRI>
-        <Literal>T5.2</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T5-1</IRI>
+        <Literal>T5.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12557,8 +12557,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T5-3</IRI>
-        <Literal>T5.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T5-2</IRI>
+        <Literal>T5.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12566,14 +12566,14 @@ identities</Literal>
         <Literal xml:lang="en">Injection of false timestamp or GPS data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T5-3</IRI>
+        <Literal>T5.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T6</IRI>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T6-1</IRI>
-        <Literal>T6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12582,8 +12582,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T6-2</IRI>
-        <Literal>T6.2</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T6-1</IRI>
+        <Literal>T6.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12592,8 +12592,8 @@ identities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T6-3</IRI>
-        <Literal>T6.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T6-2</IRI>
+        <Literal>T6.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12602,14 +12602,14 @@ identities</Literal>
 eters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T6-3</IRI>
+        <Literal>T6.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T7</IRI>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T7</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T7-1</IRI>
-        <Literal>T7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12618,8 +12618,8 @@ eters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T7-2</IRI>
-        <Literal>T7.2</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T7-1</IRI>
+        <Literal>T7.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12628,8 +12628,8 @@ eters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T7-3</IRI>
-        <Literal>T7.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T7-2</IRI>
+        <Literal>T7.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12637,14 +12637,14 @@ eters</Literal>
         <Literal xml:lang="en">Tampering with internal buffers before signing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T7-3</IRI>
+        <Literal>T7.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T8</IRI>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T8</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T8-1</IRI>
-        <Literal>T8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12653,8 +12653,8 @@ eters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T8-2</IRI>
-        <Literal>T8.2</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T8-1</IRI>
+        <Literal>T8.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12663,8 +12663,8 @@ eters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T8-3</IRI>
-        <Literal>T8.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T8-2</IRI>
+        <Literal>T8.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12672,14 +12672,14 @@ eters</Literal>
         <Literal xml:lang="en">Injection of misleading entries to misattribute actions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T8-3</IRI>
+        <Literal>T8.3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T9</IRI>
         <Literal xml:lang="en">STRIDE Threat Tampering with Data T9</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T9-1</IRI>
-        <Literal>T9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12688,8 +12688,8 @@ eters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T9-2</IRI>
-        <Literal>T9.2</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T9-1</IRI>
+        <Literal>T9.1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -12698,13 +12698,18 @@ eters</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasControNumber"/>
-        <IRI>#STRIDE-Threat-TamperingWithData-T9-3</IRI>
-        <Literal>T9.3</Literal>
+        <IRI>#STRIDE-Threat-TamperingWithData-T9-2</IRI>
+        <Literal>T9.2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#STRIDE-Threat-TamperingWithData-T9-3</IRI>
         <Literal xml:lang="en">Compromise of update channel to deliver fake credentials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasControNumber"/>
+        <IRI>#STRIDE-Threat-TamperingWithData-T9-3</IRI>
+        <Literal>T9.3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
