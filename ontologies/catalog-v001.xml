@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1794316800154" name="http://www.dmi.unict.memento/ontology/" uri="memento-o.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1794316800154" name="http://www.unict.it/scar4sud.org//ontologies/automotive" uri="automotive.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1794316800154" name="http://www.unict.it/scar4sud.org/ontologies/automotive/secaronto" uri="secaronto.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1794317455182" name="http://www.dmi.unict.memento/ontology/" uri="memento-o.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1794317455182" name="http://www.unict.it/scar4sud.org//ontologies/automotive" uri="automotive.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1794317455182" name="https://w3id.org/scar4sud/secaronto" uri="secaronto.owl"/>
     </group>
 </catalog>

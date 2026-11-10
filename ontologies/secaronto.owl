@@ -24,6 +24,10 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
+        <AnonymousIndividual nodeID="_:genid-c3a823aa-59dd-4747-9021-d3016ef6e8b8"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/license"/>
         <Literal xml:lang="en">http://creativecommons.org/licenses/by/4.0/</Literal>
     </Annotation>
     <Annotation>
@@ -13000,6 +13004,11 @@ eters</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#mitigates</IRI>
         <Literal xml:lang="en">mitigates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid-c3a823aa-59dd-4747-9021-d3016ef6e8b8"/>
+        <Literal>SECARONTO is licensed under  Creative Commons Attribution 4.0 International (CC BY 4.0).</Literal>
     </AnnotationAssertion>
 </Ontology>
 
